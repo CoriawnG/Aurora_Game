@@ -1,0 +1,19 @@
+{
+  "title": "Massive Wildfire Season",
+  "description": "Record-breaking wildfires threaten towns and critical infrastructure.",
+  "script_key": "massive_wildfire_season",
+  "participants": ["Leo", "Kai", "Ada"],
+  "choices": {
+    "A": {"title": "Mandatory evacuations", "effects": {"Stability": 5, "Prosperity": 1, "Freedom": -3}, "advisor_trust": {"rights": -3, "security": 5, "economy": 1}},
+    "B": {"title": "Increase firefighting budget", "effects": {"Stability": 2, "Prosperity": 4, "Freedom": 1}, "advisor_trust": {"rights": 1, "security": 2, "economy": 4}},
+    "C": {"title": "Let local authorities decide", "effects": {"Stability": -2, "Prosperity": 0, "Freedom": 3}, "advisor_trust": {"rights": 3, "security": -2, "economy": 0}}
+  },
+  "turns": [
+    {"speaker": "security", "text": "Mandatory evacuations save lives. Wildfires move faster than people expect."},
+    {"speaker": "rights", "text": "Forced evacuations violate autonomy. People should choose whether to stay."},
+    {"speaker": "economy", "text": "This isn’t about choice — it’s about cost. Rebuilding burned towns drains national resources."},
+    {"speaker": "security", "text": "Exactly. Prevention is cheaper than rescue."},
+    {"speaker": "rights", "text": "Blanket mandates breed resentment. Local control respects community judgment."},
+    {"speaker": "economy", "text": "Local control is fine until it fails. Then the bill lands on us."}
+  ]
+}

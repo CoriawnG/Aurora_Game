@@ -1,0 +1,18 @@
+{
+  "title": "Supply Chain Shock",
+  "description": "A major overseas supplier shuts down, causing shortages and rising prices.",
+  "script_key": "supply_chain_shock",
+  "participants": ["Ada", "Leo"],
+  "choices": {
+    "A": {"title": "Subsidize essential imports", "effects": {"Stability": 1, "Prosperity": 4, "Freedom": -1}, "advisor_trust": {"rights": -1, "security": 2, "economy": 4}},
+    "B": {"title": "Incentivize domestic production", "effects": {"Stability": 3, "Prosperity": 2, "Freedom": 1}, "advisor_trust": {"rights": 1, "security": 3, "economy": 2}},
+    "C": {"title": "Let markets self-correct", "effects": {"Stability": -3, "Prosperity": -2, "Freedom": 4}, "advisor_trust": {"rights": 4, "security": -3, "economy": -2}}
+  },
+  "turns": [
+    {"speaker": "economy", "text": "If we don’t tighten regulations, we risk a repeat of past supply chain collapses. Early intervention prevents inflation spikes."},
+    {"speaker": "rights", "text": "Intervention distorts the market. Letting prices adjust naturally preserves long-term resilience."},
+    {"speaker": "economy", "text": "Resilience doesn’t matter if businesses collapse before recovery. Short-term stability is essential."},
+    {"speaker": "rights", "text": "But heavy subsidies create dependency. We risk propping up inefficiency."},
+    {"speaker": "economy", "text": "Ignoring warning signs is what caused previous economic crashes. Prevention is cheaper than collapse."}
+  ]
+}

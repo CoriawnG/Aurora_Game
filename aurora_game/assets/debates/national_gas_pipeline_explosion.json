@@ -1,0 +1,17 @@
+{
+  "title": "National Gas Pipeline Explosion",
+  "description": "A major gas pipeline explosion disrupts energy supply across several regions.",
+  "script_key": "national_gas_pipeline_explosion",
+  "participants": ["Kai", "Ada"],
+  "choices": {
+    "A": {"title": "Shut down all pipelines for inspection", "effects": {"Stability": 5, "Prosperity": -5, "Freedom": -2}, "advisor_trust": {"rights": -2, "security": 5, "economy": -5}},
+    "B": {"title": "Repair the damaged pipeline and increase monitoring", "effects": {"Stability": 3, "Prosperity": 3, "Freedom": 2}, "advisor_trust": {"rights": 2, "security": 3, "economy": 3}},
+    "C": {"title": "Let private companies handle the crisis", "effects": {"Stability": -3, "Prosperity": 2, "Freedom": 4}, "advisor_trust": {"rights": 4, "security": -3, "economy": 2}}
+  },
+  "turns": [
+    {"speaker": "security", "text": "Pipeline explosions are catastrophic. We need full inspections immediately."},
+    {"speaker": "economy", "text": "Full shutdowns cripple the economy. Repairs and monitoring are more balanced."},
+    {"speaker": "security", "text": "Balance doesn’t matter if another explosion happens."},
+    {"speaker": "economy", "text": "But shutting everything down creates shortages that hurt millions."}
+  ]
+}

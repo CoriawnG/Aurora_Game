@@ -1,0 +1,37 @@
+{
+  "title": "Cyberattack Wave",
+  "description": "Banks and hospitals are hit by coordinated cyberattacks.",
+  "script_key": "cyberattack_wave",
+  "participants": ["Kai", "Leo", "Ada"],
+  "choices": {
+    "A": {"title": "Grant emergency cybersecurity powers", "effects": {"Stability": 5, "Prosperity": 1, "Freedom": -4}, "advisor_trust": {"rights": -4, "security": 5, "economy": 1}},
+    "B": {"title": "Invest in long-term cyber defenses", "effects": {"Stability": 1, "Prosperity": 3, "Freedom": 2}, "advisor_trust": {"rights": 2, "security": 1, "economy": 3}},
+    "C": {"title": "Partner with private tech firms", "effects": {"Stability": 0, "Prosperity": 2, "Freedom": 3}, "advisor_trust": {"rights": 3, "security": 0, "economy": 2}}
+  },
+  "turns": [
+    {"speaker": "security", "text": "Emergency powers are necessary. Cyberattacks escalate quickly and hesitation creates national vulnerabilities."},
+    {"speaker": "rights", "text": "Emergency powers risk permanent surveillance creep. Freedom shouldn’t be collateral damage."},
+    {"speaker": "economy", "text": "Both of you are missing the economic angle. A shutdown of banks and hospitals costs billions."},
+    {"speaker": "security", "text": "Which is why decisive action matters. Cyberattacks don’t wait for committees."},
+    {"speaker": "rights", "text": "Private-sector partnerships protect rights while boosting defense."},
+    {"speaker": "economy", "text": "Partnerships help, but without government authority, coordination collapses."}
+  ]
+}
+{
+  "title": "Cyberattack Wave",
+  "description": "Banks and hospitals are hit by coordinated cyberattacks.",
+  "script_key": "cyberattack_wave",
+  "choices": {
+    "A": {"title": "Grant emergency cybersecurity powers", "effects": {"Stability": 3}, "advisor_trust": {"rights": -4, "security": 5, "economy": 1}},
+    "B": {"title": "Invest in long-term cyber defenses", "effects": {"Stability": 2, "Prosperity": -1}, "advisor_trust": {"rights": 2, "security": 1, "economy": 3}},
+    "C": {"title": "Partner with private tech firms", "effects": {"Prosperity": 1}, "advisor_trust": {"rights": 3, "security": 0, "economy": 2}}
+  },
+  "turns": [
+    {"speaker": "security", "text": "The attacks are active — I urge 'Grant emergency cybersecurity powers' so responders can block damage and restore critical services now."},
+    {"speaker": "rights", "text": "Emergency powers risk overreach and data intrusion; we should instead fund long-term defenses with strict oversight to preserve civil liberties."},
+    {"speaker": "security", "text": "Brief, scoped emergency authority with sunset review stops immediate harm while we build resilience — it's not a blank check."},
+    {"speaker": "rights", "text": "Only if it's narrowly defined, transparent, and audited. Otherwise temporary powers become permanent surveillance tools."},
+    {"speaker": "security", "text": "So: limited emergency measures now, paired with a commitment to funding long-term defenses and independent audits."},
+    {"speaker": "rights", "text": "With those safeguards, I'm willing to accept a short, targeted response while we improve durable cybersecurity."}
+  ]
+}

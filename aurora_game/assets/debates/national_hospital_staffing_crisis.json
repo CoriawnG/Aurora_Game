@@ -1,0 +1,19 @@
+{
+  "title": "National Hospital Staffing Crisis",
+  "description": "Hospitals report severe staffing shortages, delaying critical care.",
+  "script_key": "national_hospital_staffing_crisis",
+  "participants": ["Kai", "Ada", "Leo"],
+  "choices": {
+    "A": {"title": "Deploy military medical personnel", "effects": {"Stability": 5, "Prosperity": 1, "Freedom": -2}, "advisor_trust": {"rights": -2, "security": 5, "economy": 1}},
+    "B": {"title": "Increase pay and bonuses for healthcare workers", "effects": {"Stability": 2, "Prosperity": -3, "Freedom": 2}, "advisor_trust": {"rights": 2, "security": 2, "economy": -3}},
+    "C": {"title": "Relax licensing requirements to hire more staff", "effects": {"Stability": 1, "Prosperity": 3, "Freedom": 3}, "advisor_trust": {"rights": 3, "security": 1, "economy": 3}}
+  },
+  "turns": [
+    {"speaker": "security", "text": "Deploying military medics stabilizes hospitals immediately."},
+    {"speaker": "economy", "text": "But it’s expensive and temporary. Incentives attract long-term staff."},
+    {"speaker": "rights", "text": "Relaxing licensing respects freedom and expands the workforce quickly."},
+    {"speaker": "security", "text": "Unlicensed staff risk patient safety."},
+    {"speaker": "economy", "text": "We need both safety and sustainability."},
+    {"speaker": "rights", "text": "And we need to trust people to step up when the system is strained."}
+  ]
+}

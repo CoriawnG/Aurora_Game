@@ -1,0 +1,17 @@
+{
+  "title": "National Flooding Crisis",
+  "description": "Historic rainfall floods major cities, displacing thousands.",
+  "script_key": "national_flooding_crisis",
+  "participants": ["Kai", "Leo"],
+  "choices": {
+    "A": {"title": "Mandatory evacuations and military rescue", "effects": {"Stability": 5, "Prosperity": 2, "Freedom": -3}, "advisor_trust": {"rights": -3, "security": 5, "economy": 2}},
+    "B": {"title": "Build emergency levees and barriers", "effects": {"Stability": 2, "Prosperity": 4, "Freedom": 1}, "advisor_trust": {"rights": 1, "security": 2, "economy": 4}},
+    "C": {"title": "Provide financial aid but no forced evacuations", "effects": {"Stability": -3, "Prosperity": -1, "Freedom": 4}, "advisor_trust": {"rights": 4, "security": -3, "economy": -1}}
+  },
+  "turns": [
+    {"speaker": "security", "text": "Mandatory evacuations save lives. Floodwaters rise faster than people expect."},
+    {"speaker": "rights", "text": "Forced evacuations violate autonomy. People know their own risks."},
+    {"speaker": "security", "text": "People underestimate danger. Floodwaters kill fast."},
+    {"speaker": "rights", "text": "Then inform them — don’t drag them out of their homes."}
+  ]
+}

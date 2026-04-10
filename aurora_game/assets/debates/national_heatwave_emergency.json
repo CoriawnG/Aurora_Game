@@ -1,0 +1,18 @@
+{
+  "title": "National Heatwave Emergency",
+  "description": "A record-breaking heatwave overwhelms hospitals and power grids.",
+  "script_key": "national_heatwave_emergency",
+  "participants": ["Leo", "Kai"],
+  "choices": {
+    "A": {"title": "Mandate cooling centers and emergency shelters", "effects": {"Stability": 4, "Prosperity": 2, "Freedom": -2}, "advisor_trust": {"rights": -2, "security": 4, "economy": 2}},
+    "B": {"title": "Subsidize home cooling equipment", "effects": {"Stability": 1, "Prosperity": 4, "Freedom": 2}, "advisor_trust": {"rights": 2, "security": 1, "economy": 4}},
+    "C": {"title": "Issue voluntary heat advisories only", "effects": {"Stability": -3, "Prosperity": -1, "Freedom": 4}, "advisor_trust": {"rights": 4, "security": -3, "economy": -1}}
+  },
+  "turns": [
+    {"speaker": "security", "text": "Mandatory cooling centers save lives. Heatwaves kill faster than people realize."},
+    {"speaker": "rights", "text": "Mandates restrict freedom. People should choose where they go."},
+    {"speaker": "security", "text": "Choice means nothing when people underestimate danger. Heat kills silently."},
+    {"speaker": "rights", "text": "Then educate them — don’t force them."},
+    {"speaker": "security", "text": "Education is slow. Heatstroke isn’t."}
+  ]
+}

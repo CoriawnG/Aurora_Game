@@ -1,0 +1,17 @@
+{
+  "title": "National Internet Outage",
+  "description": "A major internet backbone fails, disrupting banking, hospitals, and communication.",
+  "script_key": "national_internet_outage",
+  "participants": ["Leo", "Ada"],
+  "choices": {
+    "A": {"title": "Nationalize emergency internet routing", "effects": {"Stability": 5, "Prosperity": 1, "Freedom": -5}, "advisor_trust": {"rights": -5, "security": 5, "economy": 1}},
+    "B": {"title": "Require redundancy upgrades for ISPs", "effects": {"Stability": 2, "Prosperity": 4, "Freedom": 2}, "advisor_trust": {"rights": 2, "security": 2, "economy": 4}},
+    "C": {"title": "Allow ISPs to handle the crisis independently", "effects": {"Stability": -3, "Prosperity": -2, "Freedom": 4}, "advisor_trust": {"rights": 4, "security": -3, "economy": -2}}
+  },
+  "turns": [
+    {"speaker": "rights", "text": "Nationalizing routing is government overreach. ISPs should manage their own networks."},
+    {"speaker": "economy", "text": "And when they fail, the economy collapses. Outages have shown how fragile the system is."},
+    {"speaker": "rights", "text": "Redundancy upgrades are fine, but forced control is dangerous."},
+    {"speaker": "economy", "text": "Dangerous is letting private companies control national infrastructure without oversight."}
+  ]
+}

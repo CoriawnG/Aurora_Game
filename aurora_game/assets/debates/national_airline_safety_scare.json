@@ -1,0 +1,19 @@
+{
+  "title": "National Airline Safety Scare",
+  "description": "A series of near-miss incidents raises concerns about airline safety protocols.",
+  "script_key": "national_airline_safety_scare",
+  "participants": ["Leo", "Kai", "Ada"],
+  "choices": {
+    "A": {"title": "Ground all flights for safety inspections", "effects": {"Stability": 5, "Prosperity": -5, "Freedom": -2}, "advisor_trust": {"rights": -2, "security": 5, "economy": -5}},
+    "B": {"title": "Increase inspections without grounding flights", "effects": {"Stability": 3, "Prosperity": 2, "Freedom": 2}, "advisor_trust": {"rights": 2, "security": 3, "economy": 2}},
+    "C": {"title": "Let airlines self-regulate", "effects": {"Stability": -3, "Prosperity": 3, "Freedom": 4}, "advisor_trust": {"rights": 4, "security": -3, "economy": 3}}
+  },
+  "turns": [
+    {"speaker": "security", "text": "Grounding flights ensures safety. Near-misses are warnings we can’t ignore."},
+    {"speaker": "rights", "text": "Grounding flights punishes travelers and restricts freedom."},
+    {"speaker": "economy", "text": "And it devastates the economy. Inspections without grounding are more balanced."},
+    {"speaker": "security", "text": "Balance doesn’t matter if a plane goes down."},
+    {"speaker": "rights", "text": "Self-regulation respects freedom and avoids government overreach."},
+    {"speaker": "economy", "text": "Self-regulation is what caused the near-misses in the first place."}
+  ]
+}

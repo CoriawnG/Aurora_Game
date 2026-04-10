@@ -1,0 +1,19 @@
+{
+  "title": "Energy Price Spike",
+  "description": "Fuel prices surge after an international dispute.",
+  "script_key": "energy_price_spike",
+  "participants": ["Ada", "Leo", "Kai"],
+  "choices": {
+    "A": {"title": "Provide temporary fuel subsidies", "effects": {"Stability": 1, "Prosperity": 4, "Freedom": 1}, "advisor_trust": {"rights": 1, "security": 1, "economy": 4}},
+    "B": {"title": "Implement fuel rationing", "effects": {"Stability": 4, "Prosperity": 1, "Freedom": -4}, "advisor_trust": {"rights": -4, "security": 4, "economy": 1}},
+    "C": {"title": "Let prices rise naturally", "effects": {"Stability": -2, "Prosperity": -3, "Freedom": 3}, "advisor_trust": {"rights": 3, "security": -2, "economy": -3}}
+  },
+  "turns": [
+    {"speaker": "economy", "text": "Subsidies soften the blow. Countries that subsidized fuel avoided mass bankruptcies."},
+    {"speaker": "rights", "text": "But subsidies hide the real cost and delay adaptation. Letting prices rise encourages conservation."},
+    {"speaker": "security", "text": "Conservation doesn’t matter if unrest erupts. High fuel prices historically trigger instability."},
+    {"speaker": "economy", "text": "Rationing ensures supply but hurts the economy."},
+    {"speaker": "rights", "text": "And rationing restricts freedom. People should choose how they use energy."},
+    {"speaker": "security", "text": "Freedom means nothing if the grid collapses. Stability must come first."}
+  ]
+}

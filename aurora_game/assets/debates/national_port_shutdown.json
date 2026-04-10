@@ -1,0 +1,19 @@
+{
+  "title": "National Port Shutdown",
+  "description": "A labor dispute shuts down the nation's largest shipping port, halting imports and exports.",
+  "script_key": "national_port_shutdown",
+  "participants": ["Ada", "Leo", "Kai"],
+  "choices": {
+    "A": {"title": "Intervene and force ports to reopen", "effects": {"Stability": 4, "Prosperity": 3, "Freedom": -5}, "advisor_trust": {"rights": -5, "security": 4, "economy": 3}},
+    "B": {"title": "Negotiate a settlement with unions", "effects": {"Stability": 1, "Prosperity": 2, "Freedom": 3}, "advisor_trust": {"rights": 3, "security": 1, "economy": 2}},
+    "C": {"title": "Allow the shutdown to continue", "effects": {"Stability": -3, "Prosperity": -5, "Freedom": 4}, "advisor_trust": {"rights": 4, "security": -3, "economy": -5}}
+  },
+  "turns": [
+    {"speaker": "economy", "text": "A port shutdown bleeds billions daily. We need to get goods moving again."},
+    {"speaker": "rights", "text": "Forcing ports open violates workers’ rights. Negotiation is the only ethical path."},
+    {"speaker": "security", "text": "This is a national security issue. Supply chains are critical infrastructure."},
+    {"speaker": "economy", "text": "Negotiation keeps the economy stable without escalating tensions."},
+    {"speaker": "rights", "text": "Stability means nothing if we trample on labor rights."},
+    {"speaker": "security", "text": "Rights don’t matter if the nation runs out of essential supplies."}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "National Trucking Strike",
+  "description": "Truckers strike over new regulations, blocking major highways.",
+  "script_key": "national_trucking_strike",
+  "participants": ["Leo", "Kai", "Ada"],
+  "choices": {
+    "A": {"title": "Repeal the regulations", "effects": {"Stability": -3, "Prosperity": 1, "Freedom": 4}, "advisor_trust": {"rights": 4, "security": -3, "economy": 1}},
+    "B": {"title": "Negotiate a compromise", "effects": {"Stability": 1, "Prosperity": 2, "Freedom": 3}, "advisor_trust": {"rights": 3, "security": 1, "economy": 2}},
+    "C": {"title": "Deploy security forces to clear roads", "effects": {"Stability": 5, "Prosperity": -1, "Freedom": -5}, "advisor_trust": {"rights": -5, "security": 5, "economy": -1}}
+  },
+  "turns": [
+    {"speaker": "rights", "text": "Clearing roads by force violates civil liberties. Heavy-handed responses inflame tensions."},
+    {"speaker": "security", "text": "Allowing blockades cripples the nation. Security forces restore order."},
+    {"speaker": "economy", "text": "Both extremes hurt the economy. Negotiation keeps goods moving."},
+    {"speaker": "rights", "text": "Negotiation respects rights. Force destroys trust."},
+    {"speaker": "security", "text": "Trust doesn’t matter if highways stay blocked."},
+    {"speaker": "economy", "text": "And force doesn’t matter if the economy collapses from prolonged disruption."}
+  ]
+}

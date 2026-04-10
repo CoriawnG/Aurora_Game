@@ -1,0 +1,19 @@
+{
+  "title": "National Meat Contamination Alert",
+  "description": "A major meat supplier reports possible contamination affecting nationwide distribution.",
+  "script_key": "national_meat_contamination_alert",
+  "participants": ["Ada", "Kai", "Leo"],
+  "choices": {
+    "A": {"title": "Recall all meat products immediately", "effects": {"Stability": 4, "Prosperity": -3, "Freedom": 1}, "advisor_trust": {"rights": 1, "security": 4, "economy": -3}},
+    "B": {"title": "Recall only affected batches", "effects": {"Stability": 2, "Prosperity": 2, "Freedom": 2}, "advisor_trust": {"rights": 2, "security": 2, "economy": 2}},
+    "C": {"title": "Issue a warning but allow sales to continue", "effects": {"Stability": -3, "Prosperity": 3, "Freedom": 3}, "advisor_trust": {"rights": 3, "security": -3, "economy": 3}}
+  },
+  "turns": [
+    {"speaker": "economy", "text": "A full recall is costly but protects consumer trust long-term."},
+    {"speaker": "security", "text": "Contamination is a security threat. We can’t gamble with public health."},
+    {"speaker": "rights", "text": "A full recall punishes businesses before we know the full scope."},
+    {"speaker": "economy", "text": "Targeted recalls balance safety and economic stability."},
+    {"speaker": "security", "text": "Warnings alone won’t stop people from getting sick."},
+    {"speaker": "rights", "text": "People deserve the freedom to decide based on transparent warnings."}
+  ]
+}

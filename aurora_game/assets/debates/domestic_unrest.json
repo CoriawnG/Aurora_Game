@@ -1,0 +1,17 @@
+{
+  "title": "Domestic Unrest",
+  "description": "Large protests erupt over a controversial policy.",
+  "script_key": "domestic_unrest",
+  "participants": ["Leo", "Kai"],
+  "choices": {
+    "A": {"title": "Engage protesters in dialogue", "effects": {"Stability": -3, "Prosperity": 1, "Freedom": 5}, "advisor_trust": {"rights": 5, "security": -3, "economy": 1}},
+    "B": {"title": "Deploy security forces", "effects": {"Stability": 5, "Prosperity": -1, "Freedom": -5}, "advisor_trust": {"rights": -5, "security": 5, "economy": -1}},
+    "C": {"title": "Repeal the controversial policy", "effects": {"Stability": -4, "Prosperity": 2, "Freedom": 3}, "advisor_trust": {"rights": 3, "security": -4, "economy": 2}}
+  },
+  "turns": [
+    {"speaker": "rights", "text": "Deploying security forces escalates tensions. Past protests showed force inflames unrest."},
+    {"speaker": "security", "text": "Dialogue didn’t stop violence either. Order must be restored before negotiation."},
+    {"speaker": "rights", "text": "Order built on intimidation collapses. Legitimacy comes from listening."},
+    {"speaker": "security", "text": "Listening is pointless if the streets are burning. Stability is the foundation of democracy."}
+  ]
+}

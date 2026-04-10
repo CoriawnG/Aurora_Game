@@ -1,0 +1,18 @@
+{
+  "title": "National Cyber Privacy Leak",
+  "description": "A major tech company is caught selling user data without consent.",
+  "script_key": "national_cyber_privacy_leak",
+  "participants": ["Leo", "Ada"],
+  "choices": {
+    "A": {"title": "Fine the company heavily", "effects": {"Stability": 1, "Prosperity": 2, "Freedom": 3}, "advisor_trust": {"rights": 3, "security": 1, "economy": 2}},
+    "B": {"title": "Break up the company for antitrust violations", "effects": {"Stability": 2, "Prosperity": -1, "Freedom": 4}, "advisor_trust": {"rights": 4, "security": 2, "economy": -1}},
+    "C": {"title": "Issue a warning and require transparency reforms", "effects": {"Stability": 0, "Prosperity": 3, "Freedom": -2}, "advisor_trust": {"rights": -2, "security": 0, "economy": 3}}
+  },
+  "turns": [
+    {"speaker": "rights", "text": "Selling user data without consent is a violation of rights. Breaking up the company sends a message."},
+    {"speaker": "economy", "text": "Breaking it up destabilizes the tech sector. Fines and reforms are more sustainable."},
+    {"speaker": "rights", "text": "Sustainable for who? Corporations or citizens?"},
+    {"speaker": "economy", "text": "For the economy. Tech giants hold up entire markets."},
+    {"speaker": "rights", "text": "Rights shouldn’t be traded for market stability."}
+  ]
+}

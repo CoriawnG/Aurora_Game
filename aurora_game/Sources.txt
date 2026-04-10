@@ -1,0 +1,112 @@
+1. Advisor System & Decision Support
+
+Sources / Citations:
+
+Simon, H. A. (1977). The New Science of Management Decision. Prentice Hall.
+Explains bounded rationality and expert input in organizational decisions.
+Keen, P. G. W., & Scott Morton, M. S. (1978). Decision Support Systems: An Organizational Perspective. Addison-Wesley.
+Foundation of decision support systems (DSS) where advice guides executive choices.
+A real-world example: Governments use expert advisory councils to guide policy. For instance, the U.S. Council of Economic Advisers provides recommendations on fiscal and economic policies.
+Source: U.S. Council of Economic Advisers. https://www.whitehouse.gov/cea/
+
+
+2. Stats (Stability, Prosperity, Equality, Freedom)
+
+Sources / Citations:
+
+World Bank. (2023). World Development Indicators.
+Tracks economic and social metrics similar to Prosperity and Equality. https://data.worldbank.org/
+Freedom House. (2022). Freedom in the World 2022.
+Measures political rights and civil liberties. Directly relates to your "Freedom" stat. https://freedomhouse.org/report/freedom-world
+World Economic Forum. (2022). Global Competitiveness Report.
+Stability, prosperity, and social cohesion metrics are core indicators for policy evaluation. https://www.weforum.org/reports/global-competitiveness-report-2022
+
+
+3. Dynamic Events & Policy Consequences
+
+Sources / Citations:
+
+Meadows, D. H., Meadows, D. L., & Randers, J. (2004). Limits to Growth: The 30-Year Update. Chelsea Green Publishing.
+Shows systems modeling where events affect multiple societal metrics.
+Policy simulators in the real world:
+NATO Crisis Management Simulations – simulate civil unrest, economy, and political decisions.
+Reference: NATO Modeling & Simulation Centre of Excellence https://www.mccoe.org/
+Game-based analog: Democracy series by Positech Games (2005–present).
+Simulates policy decisions affecting national metrics (economy, stability, rights).
+
+
+4. Advisor Trust & Reputation System
+
+Sources / Citations:
+
+Mayer, R. C., Davis, J. H., & Schoorman, F. D. (1995). An Integrative Model of Organizational Trust. Academy of Management Review, 20(3), 709–734.
+Foundational research on trust dynamics in organizations.
+AI simulation reference:
+Gilbert, N., & Troitzsch, K. G. (2005). Simulation for the Social Scientist. McGraw-Hill.
+Shows reputation models in agent-based simulations.
+Real-world analog:
+Central banks and advisory boards adjust recommendations based on the trustworthiness and historical accuracy of advisors.
+
+
+5. Endings / Societal Outcomes
+
+Sources / Citations:
+
+Acemoglu, D., & Robinson, J. A. (2012). Why Nations Fail: The Origins of Power, Prosperity, and Poverty. Crown Business.
+Discusses how policy decisions, institutions, and freedoms lead to societal success or collapse.
+World Bank Governance Indicators (WGI) track the effects of policy on stability and prosperity.
+https://info.worldbank.org/governance/wgi/
+Simulation-based research in political science uses similar thresholds for system collapse or stability (see Axelrod’s The Evolution of Cooperation, 1984).
+
+6. Game Design / Educational Application
+
+Sources / Citations:
+
+Squire, K. (2011). Video Games and Learning: Teaching and Participatory Culture in the Digital Age. Teachers College Press.
+Explains how games model complex social systems for learning.
+Gee, J. P. (2007). What Video Games Have to Teach Us About Learning and Literacy. Palgrave Macmillan.
+Shows how player choices and consequences can teach systems thinking.
+Example: SimCity and Civilization series – teach players how balancing economy, social services, and citizen happiness affects societal outcomes.
+
+7. Event Sources (added 2026-04-09)
+
+Supply Chain Shock — IMF Global Supply Chain Report
+Cyberattack Wave — CISA Incident Report (Colonial Pipeline, 2021)
+Domestic Unrest — Pew Research Center, 2020 Protests Study
+Energy Price Spike — IEA Global Energy Review 2022; World Bank Commodity Shock Analysis
+Pandemic Outbreak — CDC COVID-19 Response Report (2020)
+Misinformation Surge — Harvard Misinformation Review
+Automation Surge — McKinsey Global Automation Report
+Border Tension Escalation — UN Security Council briefings
+Emergency Curfew Proposal — AP News coverage of 2020 curfews
+Government Transparency Leak — The Guardian / Snowden coverage (2013)
+Supply Chain Shock — IMF Global Supply Chain Report (added 2026-04-09)
+Cyberattack Wave — CISA Incident Report (Colonial Pipeline, 2021) (added 2026-04-09)
+Domestic Unrest — Pew Research Center, 2020 Protests Study (added 2026-04-09)
+Energy Price Spike — IEA Global Energy Review 2022; World Bank Commodity Shock Analysis (added 2026-04-09)
+Pandemic Outbreak — CDC COVID-19 Response Report (2020) (added 2026-04-09)
+National Rail Shutdown — (added 2026-04-09)
+Massive Wildfire Season — (added 2026-04-09)
+National Teacher Shortage — (added 2026-04-09)
+Drone Intrusions Near Airports — (added 2026-04-09)
+National Food Shortage Warning — (added 2026-04-09)
+National Heatwave Emergency — (added 2026-04-09)
+Major Pharmaceutical Recall — (added 2026-04-09)
+National Internet Outage — (added 2026-04-09)
+Chemical Plant Explosion — (added 2026-04-09)
+National Police Body-Cam Failure — (added 2026-04-09)
+National Water Rationing Proposal — (added 2026-04-09)
+National Airline Bankruptcy — (added 2026-04-09)
+National Flooding Crisis — (added 2026-04-09)
+National Cyber Privacy Leak — (added 2026-04-09)
+National Trucking Strike — (added 2026-04-09)
+National Grid Cyber Vulnerability — CISA / sector advisory (added 2026-04-09)
+National Meat Contamination Alert — FDA / supplier recall advisories (added 2026-04-09)
+National Public Transit Collapse — transit agency incident reports (added 2026-04-09)
+National Hospital Staffing Crisis — healthcare staffing studies / DOH reports (added 2026-04-09)
+National Housing Shortage — housing market analyses / housing policy briefs (added 2026-04-09)
+National Port Shutdown — port authority / union reports (added 2026-04-09)
+National Power Plant Failure — grid operator incident reports (added 2026-04-09)
+National Airline Safety Scare — aviation safety board advisories (added 2026-04-09)
+National Water Supply Contamination — EPA / state DOH advisories (added 2026-04-09)
+National Gas Pipeline Explosion — energy regulator incident reports (added 2026-04-09)

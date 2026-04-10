@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-04-06T15:28:19.312165Z",
+  "avg_trust": 48,
+  "min_trust": 12,
+  "max_trust": 78,
+  "low_advisors": [
+    "Security"
+  ],
+  "high_advisors": [
+    "Economy"
+  ],
+  "header": "Catastrophic Collapse",
+  "message": "At least one advisor lost nearly all trust (Security). The nation collapsed.",
+  "advisors": {
+    "economy": {
+      "name": "Economy",
+      "trust": 78
+    },
+    "security": {
+      "name": "Security",
+      "trust": 12
+    },
+    "rights": {
+      "name": "Rights",
+      "trust": 54
+    }
+  }
+}

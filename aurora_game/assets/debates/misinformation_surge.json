@@ -1,0 +1,13 @@
+{
+  "title": "Misinformation Surge",
+  "description": "False narratives spread rapidly across social platforms, risking public harm.",
+  "script_key": "misinformation_surge",
+  "participants": ["Leo","Kai"],
+  "choices": {},
+  "turns": [
+    {"speaker": "security", "text": "Kai: \"Regulating misinformation protects national security. False rumors have triggered violence before.\" (Source: Harvard Misinformation Review)"},
+    {"speaker": "rights", "text": "Leo: \"Regulation becomes censorship. Free speech must remain intact.\""},
+    {"speaker": "security", "text": "Kai: \"Freedom without responsibility is chaos. Dangerous lies spread faster than truth.\""},
+    {"speaker": "rights", "text": "Leo: \"Then educate the public — don\'t silence them.\""}
+  ]
+}

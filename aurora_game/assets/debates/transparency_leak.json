@@ -1,0 +1,13 @@
+{
+  "title": "Government Transparency Leak",
+  "description": "A large leak exposes classified material and triggers calls for accountability.",
+  "script_key": "transparency_leak",
+  "participants": ["Leo","Ada"],
+  "choices": {},
+  "turns": [
+    {"speaker": "rights", "text": "Leo: \"Prosecuting whistleblowers hides government wrongdoing. Snowden exposed illegal surveillance.\" (Source: The Guardian, 2013 NSA Leaks)"},
+    {"speaker": "economy", "text": "Ada: \"But leaks damage national credibility and markets. Stability requires controlled reform.\""},
+    {"speaker": "rights", "text": "Leo: \"Controlled reform is often just a cover‑up.\""},
+    {"speaker": "economy", "text": "Ada: \"And chaos is often the price of reckless disclosure.\""}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Major Pharmaceutical Recall",
+  "description": "A widely used medication is recalled after contamination reports.",
+  "script_key": "major_pharmaceutical_recall",
+  "participants": ["Ada", "Leo", "Kai"],
+  "choices": {
+    "A": {"title": "Halt all sales immediately", "effects": {"Stability": 4, "Prosperity": -1, "Freedom": 1}, "advisor_trust": {"rights": 1, "security": 4, "economy": -1}},
+    "B": {"title": "Conduct targeted recall of affected batches", "effects": {"Stability": 2, "Prosperity": 3, "Freedom": 2}, "advisor_trust": {"rights": 2, "security": 2, "economy": 3}},
+    "C": {"title": "Allow continued sales pending investigation", "effects": {"Stability": -4, "Prosperity": 1, "Freedom": -3}, "advisor_trust": {"rights": -3, "security": -4, "economy": 1}}
+  },
+  "turns": [
+    {"speaker": "economy", "text": "A targeted recall minimizes economic disruption. It's the standard FDA approach."},
+    {"speaker": "rights", "text": "But targeted recalls risk missing hidden issues. Full transparency requires halting sales."},
+    {"speaker": "security", "text": "Halting sales protects lives. Contamination spreads fast."},
+    {"speaker": "economy", "text": "And halting sales creates shortages. Patients suffer either way."},
+    {"speaker": "rights", "text": "Shortages are temporary. Trust lost from secrecy lasts forever."},
+    {"speaker": "security", "text": "Trust doesn’t matter if people die from contaminated medicine."}
+  ]
+}

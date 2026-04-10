@@ -1,0 +1,14 @@
+{
+  "title": "Emergency Curfew Proposal",
+  "description": "A proposal to impose a curfew to stem violent unrest.",
+  "script_key": "emergency_curfew_proposal",
+  "participants": ["Leo","Kai"],
+  "choices": {},
+  "turns": [
+    {"speaker": "security", "text": "Kai: \"Curfews reduce violence immediately. Cities used them effectively during 2020 unrest.\" (Source: AP News, 2020 Curfew Reports)"},
+    {"speaker": "rights", "text": "Leo: \"And they punished innocent people. Freedom shouldn\'t be suspended so easily.\""},
+    {"speaker": "security", "text": "Kai: \"Freedom means nothing if people are afraid to leave their homes.\""},
+    {"speaker": "rights", "text": "Leo: \"Fear doesn\'t justify authoritarian measures.\""},
+    {"speaker": "security", "text": "Kai: \"Ignoring violence doesn\'t make you noble — it makes you irresponsible.\""}
+  ]
+}

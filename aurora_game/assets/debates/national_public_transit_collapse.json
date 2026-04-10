@@ -1,0 +1,17 @@
+{
+  "title": "National Public Transit Collapse",
+  "description": "A major software failure shuts down public transit systems across multiple cities.",
+  "script_key": "national_public_transit_collapse",
+  "participants": ["Ada", "Leo"],
+  "choices": {
+    "A": {"title": "Deploy emergency buses and shuttles", "effects": {"Stability": 2, "Prosperity": 3, "Freedom": 1}, "advisor_trust": {"rights": 1, "security": 2, "economy": 3}},
+    "B": {"title": "Force transit workers to operate manually", "effects": {"Stability": 4, "Prosperity": 1, "Freedom": -3}, "advisor_trust": {"rights": -3, "security": 4, "economy": 1}},
+    "C": {"title": "Suspend transit until systems are repaired", "effects": {"Stability": -2, "Prosperity": -4, "Freedom": 3}, "advisor_trust": {"rights": 3, "security": -2, "economy": -4}}
+  },
+  "turns": [
+    {"speaker": "economy", "text": "Emergency shuttles keep the economy moving while repairs are underway."},
+    {"speaker": "rights", "text": "Forcing workers to operate manually is unsafe and violates labor rights."},
+    {"speaker": "economy", "text": "Suspending transit entirely would cripple businesses and workers."},
+    {"speaker": "rights", "text": "But safety must come first. People shouldn’t be forced into dangerous conditions."}
+  ]
+}

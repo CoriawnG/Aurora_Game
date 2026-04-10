@@ -1,0 +1,18 @@
+{
+  "title": "National Rail Shutdown",
+  "description": "Rail workers threaten a nationwide strike over safety standards and overtime rules.",
+  "script_key": "national_rail_shutdown",
+  "participants": ["Ada", "Kai"],
+  "choices": {
+    "A": {"title": "Meet worker demands immediately", "effects": {"Stability": -2, "Prosperity": -1, "Freedom": 3}, "advisor_trust": {"rights": 3, "security": -2, "economy": -1}},
+    "B": {"title": "Mandate arbitration", "effects": {"Stability": 3, "Prosperity": 2, "Freedom": -1}, "advisor_trust": {"rights": -1, "security": 3, "economy": 2}},
+    "C": {"title": "Allow strike to proceed", "effects": {"Stability": -4, "Prosperity": -5, "Freedom": 4}, "advisor_trust": {"rights": 4, "security": -4, "economy": -5}}
+  },
+  "turns": [
+    {"speaker": "economy", "text": "A rail shutdown would cost billions per day. The last major strike threat nearly froze the economy."},
+    {"speaker": "security", "text": "Which is why arbitration is necessary. We can’t let critical infrastructure be held hostage."},
+    {"speaker": "economy", "text": "Arbitration is slow and risks prolonging uncertainty."},
+    {"speaker": "security", "text": "Giving in immediately encourages future strikes. Stability requires firmness."},
+    {"speaker": "economy", "text": "Firmness is pointless if the economy collapses before negotiations finish."}
+  ]
+}

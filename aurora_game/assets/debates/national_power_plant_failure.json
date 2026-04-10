@@ -1,0 +1,17 @@
+{
+  "title": "National Power Plant Failure",
+  "description": "A major power plant suffers a catastrophic malfunction, causing rolling blackouts across multiple states.",
+  "script_key": "national_power_plant_failure",
+  "participants": ["Kai", "Ada"],
+  "choices": {
+    "A": {"title": "Deploy emergency generators", "effects": {"Stability": 4, "Prosperity": 2, "Freedom": -1}, "advisor_trust": {"rights": -1, "security": 4, "economy": 2}},
+    "B": {"title": "Fast-track repairs with federal funding", "effects": {"Stability": 2, "Prosperity": 4, "Freedom": 1}, "advisor_trust": {"rights": 1, "security": 2, "economy": 4}},
+    "C": {"title": "Let local authorities handle the crisis", "effects": {"Stability": -3, "Prosperity": -2, "Freedom": 3}, "advisor_trust": {"rights": 3, "security": -3, "economy": -2}}
+  },
+  "turns": [
+    {"speaker": "security", "text": "Emergency generators restore stability immediately. Blackouts create chaos."},
+    {"speaker": "economy", "text": "Generators are temporary. Fast-tracked repairs solve the root problem."},
+    {"speaker": "security", "text": "Temporary solutions buy time. We can’t leave millions in the dark."},
+    {"speaker": "economy", "text": "But relying on temporary fixes delays real progress."}
+  ]
+}

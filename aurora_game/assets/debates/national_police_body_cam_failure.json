@@ -1,0 +1,18 @@
+{
+  "title": "National Police Body-Cam Failure",
+  "description": "Police body-cam systems fail nationwide, raising accountability concerns.",
+  "script_key": "national_police_body_cam_failure",
+  "participants": ["Leo", "Kai"],
+  "choices": {
+    "A": {"title": "Suspend police operations until cameras are restored", "effects": {"Stability": -5, "Prosperity": -3, "Freedom": 5}, "advisor_trust": {"rights": 5, "security": -5, "economy": -3}},
+    "B": {"title": "Allow operations with strict oversight", "effects": {"Stability": 1, "Prosperity": 2, "Freedom": 2}, "advisor_trust": {"rights": 2, "security": 1, "economy": 2}},
+    "C": {"title": "Continue operations normally", "effects": {"Stability": 4, "Prosperity": 1, "Freedom": -4}, "advisor_trust": {"rights": -4, "security": 4, "economy": 1}}
+  },
+  "turns": [
+    {"speaker": "rights", "text": "Police must be accountable. Without cameras, abuses go unrecorded."},
+    {"speaker": "security", "text": "Suspending operations invites chaos. Crime doesn’t pause for technical issues."},
+    {"speaker": "rights", "text": "Then increase oversight — don’t operate blindly."},
+    {"speaker": "security", "text": "Oversight slows response times. Lives are at stake."},
+    {"speaker": "rights", "text": "Rights are at stake too. Safety without accountability is not safety."}
+  ]
+}

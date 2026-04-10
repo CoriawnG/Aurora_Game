@@ -1,0 +1,17 @@
+{
+  "title": "National Housing Shortage",
+  "description": "Housing demand surges while construction lags, driving prices to record highs.",
+  "script_key": "national_housing_shortage",
+  "participants": ["Leo", "Ada"],
+  "choices": {
+    "A": {"title": "Subsidize new housing construction", "effects": {"Stability": 1, "Prosperity": 4, "Freedom": 1}, "advisor_trust": {"rights": 1, "security": 1, "economy": 4}},
+    "B": {"title": "Relax zoning laws to allow more building", "effects": {"Stability": 0, "Prosperity": 3, "Freedom": 4}, "advisor_trust": {"rights": 4, "security": 0, "economy": 3}},
+    "C": {"title": "Implement rent caps to stabilize prices", "effects": {"Stability": 2, "Prosperity": -2, "Freedom": -3}, "advisor_trust": {"rights": -3, "security": 2, "economy": -2}}
+  },
+  "turns": [
+    {"speaker": "rights", "text": "Relaxing zoning laws empowers communities and increases freedom in development."},
+    {"speaker": "economy", "text": "Subsidies ensure construction actually happens instead of relying on market optimism."},
+    {"speaker": "rights", "text": "Rent caps distort the market and discourage new building."},
+    {"speaker": "economy", "text": "But without intervention, prices will keep rising faster than wages."}
+  ]
+}

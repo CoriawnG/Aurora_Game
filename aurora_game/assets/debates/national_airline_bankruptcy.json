@@ -1,0 +1,19 @@
+{
+  "title": "National Airline Bankruptcy",
+  "description": "The country’s largest airline faces bankruptcy, threatening thousands of jobs.",
+  "script_key": "national_airline_bankruptcy",
+  "participants": ["Ada", "Leo", "Kai"],
+  "choices": {
+    "A": {"title": "Provide a government bailout", "effects": {"Stability": 1, "Prosperity": 5, "Freedom": -2}, "advisor_trust": {"rights": -2, "security": 1, "economy": 5}},
+    "B": {"title": "Allow bankruptcy and restructuring", "effects": {"Stability": 2, "Prosperity": -1, "Freedom": 3}, "advisor_trust": {"rights": 3, "security": 2, "economy": -1}},
+    "C": {"title": "Nationalize the airline temporarily", "effects": {"Stability": 4, "Prosperity": 1, "Freedom": -5}, "advisor_trust": {"rights": -5, "security": 4, "economy": 1}}
+  },
+  "turns": [
+    {"speaker": "economy", "text": "A bailout protects jobs and prevents economic shock. Past crises showed how vital airlines are to stability."},
+    {"speaker": "rights", "text": "Bailouts reward mismanagement. Bankruptcy allows natural correction."},
+    {"speaker": "security", "text": "Bankruptcy risks instability. Air travel is critical infrastructure."},
+    {"speaker": "economy", "text": "Nationalization is too extreme — it scares investors."},
+    {"speaker": "rights", "text": "And bailouts scare taxpayers. Freedom means letting markets correct."},
+    {"speaker": "security", "text": "Freedom doesn’t matter if the aviation system collapses."}
+  ]
+}
