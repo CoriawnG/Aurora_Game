@@ -1,0 +1,22 @@
+Aurora includes or depends on third-party components.
+
+1. Press Start 2P font
+Copyright 2012 The Press Start 2P Project Authors.
+Licensed under the SIL Open Font License, Version 1.1.
+The full text is distributed in this release as PressStart2P-OFL.txt.
+
+2. Pygame
+Aurora is built on Pygame.
+Pygame is distributed under the GNU LGPL. If you redistribute Aurora builds,
+review Pygame's license terms for your distribution model.
+
+3. Pillow
+Aurora uses Pillow during development and asset workflows.
+Pillow is distributed under its own open-source license.
+
+4. PyInstaller
+Windows release builds are assembled with PyInstaller.
+PyInstaller is distributed under its own open-source license and exception terms.
+
+This notice file is informational and does not replace the original license
+texts that apply to bundled third-party components.
